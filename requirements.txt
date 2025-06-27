@@ -1,6 +1,6 @@
 Django==5.2
 gspread==6.2.1
-ninja==1.11.1.4
+django-ninja==1.4.1
 Pillow==11.2.1
 pydantic==2.11.7
 python-dotenv==1.1.1
