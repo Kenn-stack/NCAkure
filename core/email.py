@@ -3,9 +3,6 @@ import requests
 
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
-from dotenv import load_dotenv
-
-load_dotenv(override = True)
 
 def send_mail(email, attachment):
   html_content = render_to_string("emails/confirm_register.html")  # Optional context
